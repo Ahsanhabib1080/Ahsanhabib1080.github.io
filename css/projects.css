@@ -1,0 +1,35 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    float: left;
+    flex: 20%;
+    max-width: 32%;
+    padding: 10px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+.column img {
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    vertical-align: middle;
+    width: 100%;
+
+}
+.column img:hover{
+    transform: scale(1.1); 
+}
+
+.pheader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(3, 3, 1);
+    text-align: center;
+}
+
