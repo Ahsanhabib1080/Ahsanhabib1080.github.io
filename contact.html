@@ -39,30 +39,28 @@
         </div>
         <div class="middle-side">
             <div class="header">
-                    <h1>Completed Projects</h1> 
-                </div>
-            <div class = "row">
-                <div class = "column">
-                    <img src = "img/django.png" alt = "django">
-                    <a href = "https://github.com/Ahsanhabib1080/Portfolio">
-                        <p class = "pheader">Portfolio using django</p> 
-                    </a>
-                
-                </div>
+                    <h1>Contact Me:</h1> 
+            </div>
 
-                <div class = "column">
-                    <img src = "img/corona.jpg" alt = "Python">
-                    <a href = "https://github.com/Ahsanhabib1080/MLCoronaPredictorBangladesh">
-                        <p class = "pheader">Covid19 Prediction Using Machine Learning Approach</p> 
-                    </a>
-                </div>
-
-                <div class = "column">
-                    <img src = "img/todo.png" alt = "Django">
-                    <a href = "https://ahsanhabib1080.pythonanywhere.com/">
-                        <p class = "pheader">Todo web application using python's django framework.</p> 
-                    </a>
-                </div>
+            <div class="inputinfo">
+                <form>
+                    <label>First name: </label> <input type="text" name="firstname" id="firstname" />
+                    <br />
+                    <label>Last name: </label> <input type="text" name="lastname" id="lastname" />
+                    <br />
+                    <lebel>Full Name:</lebel>
+                    <input type="text" id="fullname"><br>
+                    <label>Email: </label> <input type="text" name="email" id="email" />
+                    <span id="semail"></span>
+                    <br />
+                    <label>Password: </label> <input type="password" name="password" id="password" />
+                    <input type="checkbox" name="checkbox" id="checkbox" />
+                    <br />
+                    <label>Message: </label> <textarea name="message" id="message" rows="5" cols="40"></textarea>
+                    <br />
+                    <input type="button" value="Submit" id="Submit"/>
+            
+                </form>
             </div>
         </div>
 
@@ -101,5 +99,7 @@
         <p>&copy;  Daffodil International University 2022</p>
     </div> 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
