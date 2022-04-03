@@ -16,9 +16,13 @@
 
 .column img {
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     height: 180px;
     padding: 10px;
+    border: 5px solid #555;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
 
 }
 .column img:hover{
