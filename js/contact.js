@@ -17,6 +17,7 @@ $('#Submit').click(function(){
       alert("Form Submitted Successfully!");
 
       $('form').trigger('reset');
+      return true;
     }
 });
 
